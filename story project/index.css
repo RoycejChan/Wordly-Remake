@@ -1,0 +1,200 @@
+/* The Modal (background) */
+
+body{
+ }
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 55px; /* Location of the box */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#myModel {
+    overflow:auto;
+    width:60vw;
+    height: 600px;
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2),0 20px 20px 0 rgba(0,0,0,0.19);
+    overflow-y: hidden;
+    overflow-x:hidden;
+}
+
+@media (max-width: 935px) { 
+    #myModel {
+        width:100vw;
+    }
+ }
+
+.modal-header {
+    height: 80px;
+}
+
+.header-caption {
+    font-weight: light;
+    color:gray;
+}
+
+.options label{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.options input {
+    color:blue;
+}
+
+.letter-limit {
+    font-size:30px;
+}
+
+.textArea {
+    display:flex;
+    justify-content:center;
+    font-weight:bold;
+    background-color: #F2E8E8;
+    border-top:1.5px solid gray;
+    border-bottom:1.4px solid gray;
+    font-size:50px;
+    overflow-y:hidden;  
+}
+
+.lol {
+    width:75%;
+    border:none;
+    outline:none;
+   /* overflow-y:scroll;  to make it look appleasing*/
+}
+
+/* Modal Content */
+.modal-content {
+
+}
+.themeBar {
+    background:black;
+    height:10px;
+    margin-top:-1px;
+    border-top-left-radius: 16%;
+    border-top-right-radius: 16%;
+}
+
+  #myBtn {
+      position: fixed;
+      bottom:-15px;
+      right: 45%;
+      font-size:60px;
+      color:white;
+      background:#534F4F;
+      border:none;
+      text-align: center;
+      padding:20px 40px;
+
+  }
+  
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+  }
+.close:hover,
+.close:focus {
+    color: #000;
+    cursor: pointer;
+  }
+
+/* Theme tabs */ 
+#Story {
+    background:orange;
+    border:none;
+}
+#Fiction {
+    background:yellow;
+    border:none;
+}
+#Lyrics {
+    background:green;
+    border:none;
+}
+#Comedy {
+    background:lightblue;
+    border:none;
+}
+#Drama {
+    background:magenta;
+    border:none;
+}
+#Poem {
+    background:red;
+    border:none;
+}
+
+.btn {
+    box-shadow: grey 2px 2 px;
+}
+
+.modal-section input{
+    font-size: 20px;
+}
+
+.m-footer {
+    background-color: #F2E8E8;
+    font-size:35px;
+    border-top:1px solid gray;
+}
+
+.m-footer #m-btn {
+    color:white;
+    background:blue;
+    border:none;
+    font-weight: bold;
+    box-shadow: gray 2.5px 2px;
+    padding:5px 20px;
+    text-align: center;
+    font-size:35px;
+}
+
+.m-footer p {
+    font-size:22px;
+}
+
+.cards {
+    width:450px;
+    height: 300px;
+    overflow:hidden;
+    font-weight: bold;
+    font-size:40px;
+    text-align: center;
+    margin:15px 15px;
+    box-shadow: 0 20px 10px 0 rgba(0,0,0,0.2),0 10px 10px 0 rgba(0,0,0,0.19);
+    padding:20px;
+}
+
+.cards p {
+    text-align: center;
+    width:400px;
+}
+
+.period {
+    height:10px;
+    margin-top:-23px;
+    font-size:0.1px;
+    width:115%;
+    margin-left:-20px;
+}
+
+#Stories {
+    
+}
